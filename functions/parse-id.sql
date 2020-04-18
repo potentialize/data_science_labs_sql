@@ -3,5 +3,6 @@ returns int deterministic
 return regexp_replace(id_str, '^..0*', '');
 
 -- usage:
-SELECT parse_id('nm000005'); --> 5
-SELECT parse_id('nm900735'); --> 900735
+SELECT parse_id('nm000005'); -- 5
+
+SELECT parse_id('nm900735'); -- 900735
